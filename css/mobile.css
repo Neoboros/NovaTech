@@ -100,3 +100,8 @@
     width: 18px;
     height: 18px;
 }
+
+.menu ul {
+    justify-content: center;
+    align-items: center;
+}
