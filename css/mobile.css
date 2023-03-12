@@ -93,6 +93,11 @@
     display: none;
 }
 
+.image1 {
+    width: calc((115*150px)/100);
+    height: calc((115*50px)/100);
+}
+
 .footer-content ul {
     font-size: 12px;
 }
