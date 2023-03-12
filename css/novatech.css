@@ -343,8 +343,8 @@ header li:hover {
 
 .light-box-inner {
     position: absolute;
-    width: 500px;
-    height: 230px;
+    width: 95%;
+    height: 240px;
     background-color: var(--frame-inner-light);
     border-radius: 10px;
     margin-top: 50px;
@@ -360,7 +360,7 @@ header li:hover {
 }
 
 .light-box-inner-button {
-    position: relative;
+    position: absolute;
     background-color: var(--gray-light);
     border-radius: 10px;
     width: 480px;
@@ -372,6 +372,7 @@ header li:hover {
     transition: filter .8s ease;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 10px;
 }
 
 .light-box-inner-button:hover {
@@ -412,7 +413,7 @@ header li:hover {
 
 .light-box-inner-2 {
     position: absolute;
-    width: 500px;
+    width: 95%;
     height: 165px;
     background-color: var(--frame-inner-light);
     border-radius: 10px;
