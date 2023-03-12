@@ -104,3 +104,7 @@
 .menu {
     justify-content: center;
 }
+
+.menu ul {
+    margin-left: 0px;
+}
