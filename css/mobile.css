@@ -81,7 +81,7 @@
 }
 
 .footer-content {
-    margin-left: 20px;
+    margin-left: calc((50*80px)/100);
 }
 
 #hr {
