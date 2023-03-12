@@ -16,12 +16,19 @@ body {
     background-color: var(--bg-color);
 }
 
-.image1, .image2 {
+.image1 {
     position: relative;
     width: 150px;
     height: 50px;
     top: 50%;
     margin-left: 15px;
+    cursor: pointer;
+}
+
+.image2 {
+    position: relative;
+    width: 150px;
+    height: 50px;
     cursor: pointer;
 }
 
