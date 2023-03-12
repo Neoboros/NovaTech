@@ -432,9 +432,11 @@ header li:hover {
     text-align: justify;
 }
 
-#cash {
-    height: 560px;
-    width: 672px;
+#pc2 {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
 }
 
 .wave2 {
@@ -581,9 +583,9 @@ footer {
          width: calc((75*500px)/100);
          height: calc((75*500px)/100);
     }
-    #cash {
-     width: calc((75*672px)/100);
-     height: calc((75*560px)/100);
+    #pc2 {
+        width: calc((75*500px)/100);
+        height: calc((75*500px)/100);
     }
     .footer-content {
         margin-left: 0px;
@@ -604,9 +606,9 @@ footer {
          width: calc((50*500px)/100);
          height: calc((50*500px)/100);
     }
-    #cash {
-     width: calc((50*672px)/100);
-     height: calc((50*560px)/100);
+    #pc2 {
+        width: calc((50*500px)/100);
+        height: calc((50*500px)/100);
     }
     .footer-content {
         margin-left: 0px;
