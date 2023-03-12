@@ -517,7 +517,7 @@ footer {
 #hr {
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 100%;
+    width: 170px;
 }
 
 #hr2 {
@@ -582,6 +582,12 @@ footer {
      width: calc((75*672px)/100);
      height: calc((75*560px)/100);
     }
+    .footer-content {
+        margin-left: 10px;
+    }
+    #hr {
+        width: 120px;
+    }
  }
  
  @media screen and (max-width: 1024px) {
@@ -598,5 +604,11 @@ footer {
     #cash {
      width: calc((50*672px)/100);
      height: calc((50*560px)/100);
+    }
+    .footer-content {
+        margin-left: 20px;
+    }
+    #hr {
+        width: 100px;
     }
  }
