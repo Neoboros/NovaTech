@@ -125,3 +125,7 @@
 .menu ul {
     margin-left: 0px;
 }
+
+.menu li {
+    margin-right: 30px;
+}
