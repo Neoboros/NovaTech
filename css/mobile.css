@@ -76,13 +76,12 @@
     display: none;
 }
 
-.footer-content {
-    width: calc((20*200px)/100);
-    margin-left: 40px;
-}
-
 .footer-content ul {
     font-size: 12px;
+}
+
+.footer-content {
+    margin-left: 20px;
 }
 
 #hr {
