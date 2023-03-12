@@ -363,7 +363,7 @@ header li:hover {
     position: absolute;
     background-color: var(--gray-light);
     border-radius: 10px;
-    width: 480px;
+    width: 95%;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -522,7 +522,7 @@ footer {
 
 #hr2 {
     position: relative;
-    width: 1450px;
+    width: 80%;
     margin-bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -566,3 +566,37 @@ footer {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1600px) {
+    .light-box-inner-text-2, .light-box-inner-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #pc {
+         width: calc((75*500px)/100);
+         height: calc((75*500px)/100);
+    }
+    #cash {
+     width: calc((75*672px)/100);
+     height: calc((75*560px)/100);
+    }
+ }
+ 
+ @media screen and (max-width: 1024px) {
+    .light-box-inner-text-2, .light-box-inner-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #pc {
+         width: calc((50*500px)/100);
+         height: calc((50*500px)/100);
+    }
+    #cash {
+     width: calc((50*672px)/100);
+     height: calc((50*560px)/100);
+    }
+ }
