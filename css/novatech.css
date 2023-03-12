@@ -310,7 +310,7 @@ header li:hover {
 .feature1 {
     opacity: 0;
     position: relative;
-    background: var(--bg-blue);
+    background: linear-gradient(var(--bg-blue), var(--blue));
     width: 100%;
     height: 500px;
     animation: fade 2s forwards;
@@ -334,6 +334,7 @@ header li:hover {
     background-color: var(--white);
     display: flex;
     margin-top: 50px;
+    box-shadow: 8px 10px 20px rgb(0, 0, 0, 0.4);
 }
 
 #light-box-text {
@@ -393,7 +394,7 @@ header li:hover {
 .feature2 {
     opacity: 0;
     position: relative;
-    background: var(--bg-blue);
+    background: linear-gradient(var(--blue), var(--bg-blue));;
     width: 100%;
     height: 650px;
     animation: fade 2s forwards;
@@ -410,6 +411,7 @@ header li:hover {
     background-color: var(--white);
     display: flex;
     margin-top: 50px;
+    box-shadow: 8px 10px 20px rgb(0, 0, 0, 0.4);
 }
 
 .light-box-inner-2 {
