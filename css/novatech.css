@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Iosevka Web";
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+}
+
+.image1, .image2 {
+    width: 150px;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 1rem black;
+    object-fit: contain;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    margin: 30px;
+}
+
+header li {
+    color: beige;
+    list-style-type: none;
+    cursor: pointer;
+    object-fit: contain;
+    padding-left: 15px;
+    font-size: 11px;
+    transition: .5s ease;
+    filter: brightness(100%);
+}
+
+header li:hover {
+    filter: brightness(60%);
+}
+
+
+.searchbox {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background: #2c3e50;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.searchtext {
+    font-family: "Iosevka Web";
+    border: none;
+    background: none;
+    color: beige;
+    outline: none;
+    width: 0;
+    transition: 0.4s;
+}   
+
+.button1 {
+    display: flex;
+    height: 16px;
+    width: 16px;
+    border-radius: 50px;
+    background: #2c3e50;
+    justify-content: center;
+}
+
+.searchbox:hover > .searchtext {
+    width: 30vh;
+}
+
+.menu {
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 20px 20px rgb(0, 0, 0, 0.3);
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: contain;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    color: rgb(36, 36, 36);
+    list-style-type: none;
+    cursor: pointer;
+    object-fit: contain;
+    margin-left: 30px;
+    font-size: 15px;
+    background-color: #bdc3c7;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    filter: brightness(100%);
+    transition: filter .5s ease;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu li:hover {
+    filter: brightness(50%);
+}
+
+:root {
+    --orange: rgb(255, 211, 116);
+    --blue: rgb(14, 194, 218);
+    --green: rgb(93, 189, 105);
+    --green-dark: rgb(50, 102, 57);
+    --white: rgb(235, 235, 235);
+    --black: rgb(20, 20, 20);
+    --gray-light: rgb(128, 128, 128);
+    --frame-outer: rgb(26, 26, 26);
+    --frame-inner: rgb(36, 36, 36);
+    --frame-inner-light: rgb(190, 190, 190);;
+    --bg-blue: #62a6ff;
+    --bg-color: rgb(15, 15, 15);
+}
+
+.body-content svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-typewriter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 200px;
+}
+
+.text-typewriter h1 {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 3.5em;
+    background: linear-gradient(270deg,#22d3ee, #2043dd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.text-typewriter span {
+    background: linear-gradient(270deg, rgb(255, 255 ,255), rgb(192, 192, 192));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.text-typewriter p {
+    font-family: "Iosevka Web";
+    color: white;
+}
+
+.container-body-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.vscode {
+    opacity: 0;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--frame-outer);
+    color: rgb(235, 235, 235);
+    display: flex;
+    margin-right: 12px;
+    animation: fade 1s forwards;
+}
+
+.vscode img, .about img, .light-box img, #price-comparison {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 5px;
+}
+
+#vscode-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.css {
+    position: absolute;
+    width: 380px;
+    height: 230px;
+    background-color: var(--frame-inner);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#css-text, #txt-text {
+    color: rgb(235, 235, 235);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.code {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#text-orange {
+    color: var(--orange);
+}
+
+#text-blue {
+    color: var(--blue);
+}
+
+#text-green {
+    color: var(--green);
+}
+
+#text-green-dark {
+    color: var(--green-dark);
+}
+
+.about {
+    opacity: 0;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--frame-outer);
+    color: rgb(235, 235, 235);
+    display: flex;
+    margin-left: 12px;
+    animation: fade 1s forwards;
+}
+
+#about-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.txt {
+    position: absolute;
+    width: 380px;
+    height: 230px;
+    background-color: var(--frame-inner);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.txt-content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.wave {
+    opacity: 0;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+}
+
+.feature1 {
+    opacity: 0;
+    position: relative;
+    background: var(--bg-blue);
+    width: 100%;
+    height: 500px;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+    display: flex;
+    justify-content: center;
+}
+
+#pc {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+}
+
+.light-box {
+    position: relative;
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    margin-top: 50px;
+}
+
+#light-box-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.light-box-inner {
+    position: absolute;
+    width: 500px;
+    height: 230px;
+    background-color: var(--frame-inner-light);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-box-inner-text {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.light-box-inner-button {
+    position: relative;
+    background-color: var(--gray-light);
+    border-radius: 10px;
+    width: 480px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(100%);
+    transition: filter .8s ease;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-box-inner-button:hover {
+    filter: brightness(60%)
+}
+
+#light-box-inner-button-link {
+    text-decoration: none;
+}
+
+#light-box-inner-button-text {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.feature2 {
+    opacity: 0;
+    position: relative;
+    background: var(--bg-blue);
+    width: 100%;
+    height: 650px;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+    display: flex;
+    justify-content: center;
+}
+
+.light-box-2 {
+    position: relative;
+    width: 520px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    margin-top: 50px;
+}
+
+.light-box-inner-2 {
+    position: absolute;
+    width: 500px;
+    height: 165px;
+    background-color: var(--frame-inner-light);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-box-inner-text-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#cash {
+    height: 560px;
+    width: 672px;
+}
+
+.wave2 {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+}
+
+.final {
+    position: relative;
+    background: var(--bg-color);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final-outer {
+    background: var(--frame-outer);
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.final span {
+    color: var(--white);
+    font-family: "Iosevka Web";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: relative;
+    background-color: #242424;
+    width: 100%;
+    height: 270px;
+}
+
+.footer-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-content {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-left: 80px;
+}
+
+#footer-content-text {
+    font-size: 1.4rem;
+    font-family: "Lato", sans-serif;
+    color: var(--white);
+}
+
+.footer-content ul {
+    list-style-type: none;
+    font-style: "Iosevka";  
+    color: var(--gray-light);
+}
+
+.footer-content li {
+    filter: brightness(100%);
+    transition: filter .8s ease;
+    cursor: pointer;
+}
+
+.footer-content li:hover {
+    filter: brightness(60%);
+    color: var(--bg-blue);
+}
+
+#hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#hr2 {
+    position: relative;
+    width: 1450px;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rights {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights p {
+    color: var(--white);
+}
+
+.social {
+    position: relative;
+    margin-left: 10px;
+}
+
+#github, #twitter, #discord {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+    transition: filter .7s ease;
+    cursor: pointer;
+}
+
+#github:hover, #twitter:hover, #discord:hover {
+    filter: grayscale(0%);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,103 @@
+.text-typewriter h1 {
+    font-size: 2.5em;
+}
+
+.vscode {
+    width: 300px;
+    margin-right: 4px;
+}
+
+.about {
+    width: 300px;
+    margin-left: 4px;
+}
+
+.css {
+    width: 95%;
+}
+
+.txt {
+    width: 95%;
+}
+
+.txt-content, .code {
+    font-size: 11px;
+}   
+
+.image1 {
+    width: 100px;
+    height: 33px;
+}
+
+.searchbox:hover > .searchtext {
+    width: 10vh;
+}
+
+#pc, #cash {
+    display: none;
+}
+
+.light-box, .light-box-2 {
+    width: calc((75*520px)/100);
+}
+
+.light-box-inner, .light-box-inner-2 {
+    width: calc((75*500px)/100);        
+}
+
+.light-box-inner-text, .light-box-inner-text-2 {
+    font-size: 13px;
+}
+
+.light-box-inner-button {
+    width: calc((75*480px)/100);
+}
+
+#light-box-inner-button-text {
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+    color: var(--black);
+}
+
+.final-outer {
+    height: calc((75*100px)/100);
+    width: calc((50*900px)/100);
+}
+
+.final span {
+    font-size: .8rem;
+}
+
+#footer-content-text {
+    font-size: .8rem;
+}
+
+.image2 {
+    display: none;
+}
+
+.footer-content {
+    width: calc((20*200px)/100);
+    margin-left: 40px;
+}
+
+.footer-content ul {
+    font-size: 12px;
+}
+
+#hr {
+    width: 50px;
+}
+
+#hr2 {
+    width: calc((25*1450px)/100);
+}
+
+.rights p {
+    font-size: 14px;
+}
+
+#github, #twitter, #discord {
+    width: 18px;
+    height: 18px;
+}
