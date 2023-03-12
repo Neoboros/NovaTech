@@ -17,9 +17,11 @@ body {
 }
 
 .image1, .image2 {
+    position: relative;
     width: 150px;
     height: 50px;
-    margin: 15px;
+    top: 50%;
+    margin-left: 15px;
     cursor: pointer;
 }
 

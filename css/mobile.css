@@ -94,8 +94,7 @@
 }
 
 .image1 {
-    width: calc((102*150px)/100);
-    height: calc((102*50px)/100);
+    margin-left: 0px;
 }
 
 .footer-content ul {
