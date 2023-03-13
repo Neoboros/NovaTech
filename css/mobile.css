@@ -93,10 +93,6 @@
     display: none;
 }
 
-.image1 {
-    margin-left: 30px;
-}
-
 .footer-content ul {
     font-size: 12px;
 }
@@ -132,8 +128,4 @@
 
 .menu li {
     margin-right: 20px;
-}
-
-header ul {
-    margin: 15px;
 }
