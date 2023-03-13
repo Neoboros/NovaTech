@@ -299,7 +299,8 @@ header li:hover {
     background-color: var(--frame-inner);
     border-radius: 10px;
     margin-top: 50px;
-    margin-left: 10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .txt-content {

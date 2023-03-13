@@ -131,10 +131,6 @@
 }
 
 @media screen and (max-width: 720px) {
-    .text-typewriter h1 {
-        font-size: 2em;
-    }
-    
     .vscode {
         width: calc((75*300px)/100);
         margin-right: 4px;
@@ -144,47 +140,10 @@
         width: calc((75*300px)/100);
         margin-left: 4px;
     }
-    
-    .css {
-        width: 95%;
-    }
-    
-    .txt {
-        width: 95%;
-    }
-    
+
     .txt-content, .code {
         font-size: 10.5px;
     }   
-    
-    .image1 {
-        width: 100px;
-        height: 33px;
-    }
-    
-    .searchbox:hover > .searchtext {
-        width: 10vh;
-    }
-    
-    .feature1 {
-        flex-direction: column;
-        height: calc((125*500px)/100);
-        justify-content: center;
-        align-items: center; 
-    }
-    
-    .feature2 {
-        position: relative;
-        flex-direction: column;
-        height: 500px;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 150px;
-    }
-    
-    #pc, #pc2 {
-        margin-right: 0px;
-    }
     
     .light-box, .light-box-2 {
         width: calc((50*520px)/100);
@@ -203,63 +162,15 @@
         width: calc((50*480px)/100);
     }
     
-    #light-box-inner-button-text {
-        font-family: "Lato", sans-serif;
-        font-size: 0.8rem;
-        color: var(--black);
-    }
-    
-    .final-outer {
-        height: calc((50*100px)/100);
-        width: calc((25*900px)/100);
-    }
-    
-    .final span {
-        font-size: .6rem;
-    }
-    
     #footer-content-text {
         font-size: .6rem;
     }
-    
-    .image2 {
-        display: none;
-    }
-    
+
     .footer-content ul {
         font-size: 10px;
     }
-    
-    .footer-content {
-        margin-left: 40px;
-    }
-    
-    #hr {
-        width: 50px;
-    }
-    
-    #hr2 {
-        width: calc((25*1450px)/100);
-    }
-    
+
     .rights p {
         font-size: 12px;
-    }
-    
-    #github, #twitter, #discord {
-        width: 18px;
-        height: 18px;
-    }
-    
-    .menu {
-        justify-content: center;
-    }
-    
-    .menu ul {
-        margin-left: 20px;
-    }
-    
-    .menu li {
-        margin-right: 20px;
     }
 }
