@@ -2,6 +2,10 @@
     font-size: 2.5em;
 }
 
+.header ul {
+    margin-right: 15px;
+}
+
 .vscode {
     width: 300px;
     margin-right: 4px;
