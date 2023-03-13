@@ -336,6 +336,7 @@ header li:hover {
     width: 500px;
     height: 500px;
     margin-right: 100px;
+    cursor: pointer;
 }
 
 .light-box {
@@ -449,6 +450,7 @@ header li:hover {
     height: 500px;
     width: 500px;
     margin-right: 100px;
+    cursor: pointer;
 }
 
 .wave2 {
