@@ -459,6 +459,7 @@ header li:hover {
 }
 
 .final {
+    opacity: 0;
     position: relative;
     background: var(--bg-color);
     width: 100%;
@@ -466,6 +467,8 @@ header li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fade 1s forwards;
+    animation-delay: 2s;
 }
 
 .final-outer {
