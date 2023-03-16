@@ -1,0 +1,673 @@
+@import url(template.css);
+
+.body-content svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-typewriter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 200px;
+}
+
+.text-typewriter h1 {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 3.5em;
+    background: linear-gradient(270deg,#22d3ee, #2043dd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.text-typewriter span {
+    background: linear-gradient(270deg, rgb(255, 255 ,255), rgb(192, 192, 192));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.text-typewriter p {
+    font-family: "Iosevka Web";
+    color: white;
+}
+
+.container-body-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.vscode {
+    opacity: 0;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--frame-outer);
+    color: rgb(235, 235, 235);
+    display: flex;
+    margin-right: 12px;
+    animation: fade 1s forwards;
+}
+
+.vscode img, .about img, .light-box img, #price-comparison {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 7px;
+    left: 5px;
+}
+
+#vscode-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.css {
+    position: absolute;
+    width: 380px;
+    height: 230px;
+    background-color: var(--frame-inner);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#css-text, #txt-text {
+    color: rgb(235, 235, 235);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.code {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#text-orange {
+    color: var(--orange);
+}
+
+#text-blue {
+    color: var(--blue);
+}
+
+#text-green {
+    color: var(--green);
+}
+
+#text-green-dark {
+    color: var(--green-dark);
+}
+
+.about {
+    opacity: 0;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--frame-outer);
+    color: rgb(235, 235, 235);
+    display: flex;
+    margin-left: 12px;
+    animation: fade 1s forwards;
+}
+
+#about-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.txt {
+    position: absolute;
+    width: 380px;
+    height: 230px;
+    background-color: var(--frame-inner);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.txt-content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.wave {
+    opacity: 0;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+}
+
+.feature1 {
+    opacity: 0;
+    position: relative;
+    background: linear-gradient(var(--bg-blue), var(--blue));
+    width: 100%;
+    height: 50%;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#pc {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.light-box {
+    position: relative;
+    width: 520px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 8px 10px 20px rgb(0, 0, 0, 0.4);
+}
+
+#light-box-text {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.light-box-inner {
+    position: absolute;
+    width: 95%;
+    height: 240px;
+    background-color: var(--frame-inner-light);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-box-inner-text {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.light-box-inner-button {
+    position: absolute;
+    background-color: var(--gray-light);
+    border-radius: 10px;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(100%);
+    transition: filter .8s ease;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.light-box-inner-button:hover {
+    filter: brightness(60%)
+}
+
+#light-box-inner-button-link {
+    text-decoration: none;
+}
+
+#light-box-inner-button-text {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.feature2 {
+    opacity: 0;
+    position: relative;
+    background: linear-gradient(var(--blue), var(--bg-blue));;
+    width: 100%;
+    height: 50%;
+    animation: fade 2s forwards;
+    animation-delay: 1s;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.light-box-2 {
+    position: relative;
+    width: 520px;
+    height: 235px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 8px 10px 20px rgb(0, 0, 0, 0.4);
+}
+
+.light-box-inner-2 {
+    position: absolute;
+    width: 95%;
+    height: 165px;
+    background-color: var(--frame-inner-light);
+    border-radius: 10px;
+    margin-top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.light-box-inner-text-2 {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#pc2 {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.wave2 {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+}
+
+.final {
+    opacity: 0;
+    position: relative;
+    background: var(--bg-color);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade 1s forwards;
+    animation-delay: 2s;
+}
+
+.final-outer {
+    background: var(--frame-outer);
+    height: 100px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.final span {
+    color: var(--white);
+    font-family: "Iosevka Web";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: relative;
+    background-color: #242424;
+    width: 100%;
+    height: 270px;
+}
+
+.footer-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-content {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+}
+
+#footer-content-text {
+    font-size: 1.4rem;
+    font-family: "Lato", sans-serif;
+    color: var(--white);
+}
+
+.footer-content ul {
+    list-style-type: none;
+    font-style: "Iosevka";  
+    color: var(--gray-light);
+}
+
+.footer-content li {
+    filter: brightness(100%);
+    transition: filter .8s ease;
+    cursor: pointer;
+}
+
+.footer-content li:hover {
+    filter: brightness(60%);
+    color: var(--bg-blue);
+}
+
+#hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 170px;
+}
+
+#hr2 {
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rights {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rights p {
+    color: var(--white);
+}
+
+.social {
+    position: relative;
+    margin-left: 10px;
+}
+
+#github, #twitter, #discord {
+    width: 24px;
+    height: 24px;
+    filter: grayscale(100%);
+    transition: filter .7s ease;
+    cursor: pointer;
+}
+
+#github:hover, #twitter:hover, #discord:hover {
+    filter: grayscale(0%);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .light-box-inner-text-2, .light-box-inner-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #pc {
+         width: calc((75*500px)/100);
+         height: calc((75*500px)/100);
+    }
+    #pc2 {
+        width: calc((75*500px)/100);
+        height: calc((75*500px)/100);
+    }
+    .footer-content {
+        margin-left: 0px;
+    }
+    #hr {
+        width: 120px;
+    }
+ }
+ 
+ @media screen and (max-width: 1024px) {
+    .light-box-inner-text-2, .light-box-inner-text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #pc {
+         width: calc((50*500px)/100);
+         height: calc((50*500px)/100);
+    }
+    #pc2 {
+        width: calc((50*500px)/100);
+        height: calc((50*500px)/100);
+    }
+    .footer-content {
+        margin-left: 0px;
+    }
+    #hr {
+        width: 100px;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+    .wave, .wave2 {
+        margin-bottom: -4px;
+    }
+
+    .text-typewriter h1 {
+        font-size: 2.5em;
+    }
+    
+    header ul {
+        margin-right: 15px;
+    }
+    
+    .vscode {
+        width: 300px;
+        margin-right: 4px;
+    }
+    
+    .about {
+        width: 300px;
+        margin-left: 4px;
+    }
+    
+    .css {
+        width: 95%;
+    }
+    
+    .txt {
+        width: 95%;
+    }
+    
+    .txt-content, .code {
+        font-size: 11px;
+    }   
+    
+    .image1 {
+        width: 100px;
+        height: 33px;
+    }
+    
+    .searchbox:hover > .searchtext {
+        width: 10vh;
+    }
+    
+    .feature1 {
+        flex-direction: column;
+        height: calc((125*500px)/100);
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .feature2 {
+        position: relative;
+        flex-direction: column;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+    
+    #pc, #pc2 {
+        margin-right: 0px;
+    }
+    
+    .light-box, .light-box-2 {
+        width: calc((75*520px)/100);
+        margin-top: calc((25*50px)/100);
+    }
+    
+    .light-box-inner, .light-box-inner-2 {
+        width: calc((75*500px)/100);       
+    }
+    
+    .light-box-inner-text, .light-box-inner-text-2 {
+        font-size: 13px;
+    }
+    
+    .light-box-inner-button {
+        width: calc((75*480px)/100);
+    }
+    
+    #light-box-inner-button-text {
+        font-family: "Lato", sans-serif;
+        font-size: 0.8rem;
+        color: var(--black);
+    }
+    
+    .final-outer {
+        height: calc((75*100px)/100);
+        width: calc((50*900px)/100);
+    }
+    
+    .final span {
+        font-size: .8rem;
+    }
+    
+    #footer-content-text {
+        font-size: .8rem;
+    }
+    
+    .image2 {
+        display: none;
+    }
+    
+    .footer-content ul {
+        font-size: 12px;
+    }
+    
+    .footer-content {
+        margin-left: 40px;
+    }
+    
+    #hr {
+        width: 50px;
+    }
+    
+    #hr2 {
+        width: calc((25*1450px)/100);
+    }
+    
+    .rights p {
+        font-size: 14px;
+    }
+    
+    #github, #twitter, #discord {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .menu {
+        justify-content: center;
+    }
+    
+    .menu ul {
+        margin-left: 20px;
+    }
+    
+    .menu li {
+        margin-right: 20px;
+    }    
+ }
+
+ @media screen and (max-width: 720px) {
+    .vscode {
+        width: calc((75*300px)/100);
+        margin-right: 4px;
+    }
+    
+    .about {
+        width: calc((75*300px)/100);
+        margin-left: 4px;
+    }
+
+    .txt-content, .code {
+        font-size: 10.5px;
+    }   
+    
+    .light-box, .light-box-2 {
+        width: calc((50*520px)/100);
+        margin-top: calc((25*50px)/100);
+    }
+    
+    .light-box-inner, .light-box-inner-2 {
+        width: calc((50*500px)/100);       
+    }
+    
+    .light-box-inner-text, .light-box-inner-text-2 {
+        font-size: 11px;
+    }
+    
+    .light-box-inner-button {
+        width: calc((50*480px)/100);
+    }
+    
+    #footer-content-text {
+        font-size: .6rem;
+    }
+
+    .footer-content ul {
+        font-size: 10px;
+    }
+
+    .rights p {
+        font-size: 12px;
+    }
+}

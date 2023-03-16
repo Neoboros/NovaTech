@@ -1,0 +1,200 @@
+@import url(template.css);
+
+body {
+    font-family: "Iosevka Web";
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--frame-outer);
+}
+
+.menu {
+    box-shadow: 0 20px 20px rgb(0, 0, 0, 0.2);
+}
+
+.nav-indicator {
+    opacity: 0;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    animation: fade .5s forwards ease;
+    background-color: var(--frame-inner-lighter);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px
+}
+
+#home {
+    color: var(--white);
+    cursor: pointer;
+    filter: brightness(100%);
+    transition: filter .5s ease;
+    font-size: .8em;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+#home:hover {
+    filter: brightness(60%);
+}
+
+#current {
+    color: var(--gray-light);
+    display: flex;
+    font-size: .8em;
+    margin-left: 8px;
+}
+
+.partpicker {
+    position: relative;
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partpicker-dark-box {
+    display: flex;
+    background-color: var(--frame-outer);
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+#title-partpicker {
+    position: relative;
+    color: var(--white);
+    font-size: 1em;
+    margin-left: 15px;
+}
+
+#gears {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+table { 
+    opacity: 0;
+    border-collapse: separate; 
+    border-spacing: 0 2.5em; 
+    animation: fade 1s forwards ease;
+    animation-delay: 1s;
+    padding-left: 30px;
+}
+
+th {    
+    position: relative;
+    color: var(--white);
+    text-align: left;
+}
+
+.th-remove {
+    width: 76px;
+}
+
+.th-product a {
+    text-decoration: none;
+    color: var(--blue);
+    filter: brightness(100%);
+    transition: filter .5s ease;
+}
+
+.th-product a:hover {
+    filter: brightness(60%);
+}
+
+.th-add a {
+    background-color: var(--bg-blue);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--black);
+    filter: brightness(100%);
+    transition: filter .5s ease;
+    padding: 3px;
+}
+
+.th-add a:hover {
+    filter: brightness(60%);
+}
+
+@media screen and (max-width: 768px) {
+    
+    header ul {
+        margin-right: 15px;
+    }
+    
+    .about {
+        width: 300px;
+        margin-left: 4px;
+    }
+    
+    .image1 {
+        width: 100px;
+        height: 33px;
+    }
+    
+    .searchbox:hover > .searchtext {
+        width: 10vh;
+    }
+    
+    #footer-content-text {
+        font-size: .8rem;
+    }
+    
+    .image2 {
+        display: none;
+    }
+    
+    .footer-content ul {
+        font-size: 12px;
+    }
+    
+    .footer-content {
+        margin-left: 40px;
+    }
+    
+    #hr {
+        width: 50px;
+    }
+    
+    #hr2 {
+        width: calc((25*1450px)/100);
+    }
+    
+    .rights p {
+        font-size: 14px;
+    }
+    
+    #github, #twitter, #discord {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .menu {
+        justify-content: center;
+    }
+    
+    .menu ul {
+        margin-left: 20px;
+    }
+    
+    .menu li {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #footer-content-text {
+        font-size: .6rem;
+    }
+
+    .footer-content ul {
+        font-size: 10px;
+    }
+
+    .rights p {
+        font-size: 12px;
+    }
+}
