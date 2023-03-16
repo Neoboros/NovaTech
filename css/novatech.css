@@ -172,12 +172,11 @@
     position: relative;
     background: linear-gradient(var(--bg-blue), var(--blue));
     width: 100%;
-    height: 50%;
+    height: 600px;
     animation: fade 2s forwards;
     animation-delay: 1s;
     display: flex;
     justify-content: center;
-    padding-top: 80px;
 }
 
 #pc {
@@ -258,12 +257,11 @@
     position: relative;
     background: linear-gradient(var(--blue), var(--bg-blue));;
     width: 100%;
-    height: 50%;
+    height: 600px;
     animation: fade 2s forwards;
     animation-delay: 1s;
     display: flex;
     justify-content: center;
-    padding-bottom: 150px;
 }
 
 .light-box-2 {
@@ -315,7 +313,7 @@
     position: relative;
     background: var(--bg-color);
     width: 100%;
-    height: 250px;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,10 +484,6 @@ footer {
  }
 
  @media screen and (max-width: 768px) {
-    .wave, .wave2 {
-        margin-bottom: -4px;
-    }
-
     .text-typewriter h1 {
         font-size: 2.5em;
     }
@@ -639,7 +633,7 @@ footer {
     }
 
     .txt-content, .code {
-        font-size: 10.5px;
+        font-size: 9px;
     }   
     
     .light-box, .light-box-2 {
@@ -669,5 +663,14 @@ footer {
 
     .rights p {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .wave, .wave2 {
+        display: none;
+    }
+    .container-body-1 {
+        height: 400px;
     }
 }
