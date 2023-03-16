@@ -46,11 +46,12 @@ body {
 
 .partpicker {
     position: relative;
-    height: 100%;
-    width: auto;
+    height: 700px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .partpicker-dark-box {
@@ -119,8 +120,7 @@ th {
     filter: brightness(60%);
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) { 
     header ul {
         margin-right: 15px;
     }
