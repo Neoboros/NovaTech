@@ -299,6 +299,7 @@
     width: 500px;
     margin-right: 100px;
     cursor: pointer;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5), 0 0 0 100px rgba(255, 255, 255, 0.3) radial-gradient(circle at center, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 25%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 1) 100%);
 }
 
 .wave2 {
@@ -336,96 +337,6 @@
     font-family: "Iosevka Web";
     font-weight: bold;
     font-size: 1.5rem;
-}
-
-footer {
-    position: relative;
-    background-color: #242424;
-    width: 100%;
-    height: 270px;
-}
-
-.footer-container {
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 200px;
-}
-
-.footer-content {
-    position: relative;
-    width: 200px;
-    height: auto;
-    margin-left: 0px;
-}
-
-#footer-content-text {
-    font-size: 1.4rem;
-    font-family: "Lato", sans-serif;
-    color: var(--white);
-}
-
-.footer-content ul {
-    list-style-type: none;
-    font-style: "Iosevka";  
-    color: var(--gray-light);
-}
-
-.footer-content li {
-    filter: brightness(100%);
-    transition: filter .8s ease;
-    cursor: pointer;
-}
-
-.footer-content li:hover {
-    filter: brightness(60%);
-    color: var(--bg-blue);
-}
-
-#hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 170px;
-}
-
-#hr2 {
-    position: relative;
-    width: 80%;
-    margin-bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.rights {
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rights p {
-    color: var(--white);
-}
-
-.social {
-    position: relative;
-    margin-left: 10px;
-}
-
-#github, #twitter, #discord {
-    width: 24px;
-    height: 24px;
-    filter: grayscale(100%);
-    transition: filter .7s ease;
-    cursor: pointer;
-}
-
-#github:hover, #twitter:hover, #discord:hover {
-    filter: grayscale(0%);
 }
 
 @keyframes fade {
@@ -488,10 +399,6 @@ footer {
         font-size: 2.5em;
     }
     
-    header ul {
-        margin-right: 15px;
-    }
-    
     .vscode {
         width: 300px;
         margin-right: 4px;
@@ -513,16 +420,7 @@ footer {
     .txt-content, .code {
         font-size: 11px;
     }   
-    
-    .image1 {
-        width: 100px;
-        height: 33px;
-    }
-    
-    .searchbox:hover > .searchtext {
-        width: 10vh;
-    }
-    
+
     .feature1 {
         flex-direction: column;
         height: calc((125*500px)/100);
@@ -574,51 +472,6 @@ footer {
     .final span {
         font-size: .8rem;
     }
-    
-    #footer-content-text {
-        font-size: .8rem;
-    }
-    
-    .image2 {
-        display: none;
-    }
-    
-    .footer-content ul {
-        font-size: 12px;
-    }
-    
-    .footer-content {
-        margin-left: 40px;
-    }
-    
-    #hr {
-        width: 50px;
-    }
-    
-    #hr2 {
-        width: calc((25*1450px)/100);
-    }
-    
-    .rights p {
-        font-size: 14px;
-    }
-    
-    #github, #twitter, #discord {
-        width: 18px;
-        height: 18px;
-    }
-    
-    .menu {
-        justify-content: center;
-    }
-    
-    .menu ul {
-        margin-left: 20px;
-    }
-    
-    .menu li {
-        margin-right: 20px;
-    }    
  }
 
  @media screen and (max-width: 720px) {
@@ -652,19 +505,12 @@ footer {
     .light-box-inner-button {
         width: calc((50*480px)/100);
     }
-    
-    #footer-content-text {
+
+    .final span {
         font-size: .6rem;
     }
-
-    .footer-content ul {
-        font-size: 10px;
-    }
-
-    .rights p {
-        font-size: 12px;
-    }
 }
+
 
 @media screen and (max-width: 320px){
     .wave, .wave2 {
