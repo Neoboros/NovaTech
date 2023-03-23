@@ -302,6 +302,10 @@ footer {
         width: 100px;
         height: 33px;
     }
+
+    .image2 {
+        margin-top: 20px;
+    }
     
     .searchbox:hover > .searchtext {
         width: 10vh;
