@@ -304,7 +304,7 @@ footer {
     }
 
     .image2 {
-        margin-top: 20px;
+        padding-top: 20px;
     }
     
     .searchbox:hover > .searchtext {
