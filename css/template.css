@@ -159,6 +159,7 @@ header li:hover {
     --bg-blue: #62a6ff;
     --bg-color: rgb(15, 15, 15);
     --frame-inner-lighter: rgb(46, 46, 46);
+    --green-light: rgb(16, 206, 25);
 }
 
 footer {
