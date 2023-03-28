@@ -152,10 +152,10 @@ header li:hover {
     --green-dark: rgb(50, 102, 57);
     --white: rgb(235, 235, 235);
     --black: rgb(20, 20, 20);
-    --gray-light: rgb(128, 128, 128);
+    --gray-light: rgb(173, 173, 173);
     --frame-outer: rgb(26, 26, 26);
     --frame-inner: rgb(36, 36, 36);
-    --frame-inner-light: rgb(190, 190, 190);;
+    --frame-inner-light: rgb(216, 216, 216);;
     --bg-blue: #62a6ff;
     --bg-color: rgb(15, 15, 15);
     --frame-inner-lighter: rgb(46, 46, 46);
@@ -163,7 +163,7 @@ header li:hover {
 }
 
 footer {
-    position: relative  ;
+    position: relative;
     background-color: #242424;
     width: 100%;
     height: 270px;
