@@ -12,8 +12,6 @@ O site está totalmente em português para suprir a necessidade de serviços com
 
 # Andamento do Projeto:
 
-Atualmente o projeto se encontra em seu início, com apenas a home page completa:
+Atualmente o projeto se encontra em seu início, com apenas a home page completa, Em desenvolvimento estão a feature builder do website e o <a href="https://github.com/Neoboros/Nova-Bot">DiscordBot</a>: 
 
 <img src="./examples/homepage.PNG">
-
-Em desenvolvimento estão a feature builder do website e o DiscordBot: https://github.com/Neoboros/Nova-Bot
