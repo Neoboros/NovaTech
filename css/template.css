@@ -192,10 +192,14 @@ footer {
     color: var(--white);
 }
 
+.footer-content a {
+    color: var(--gray-light);
+    text-decoration: none;
+}
+
 .footer-content ul {
     list-style-type: none;
     font-style: "Iosevka";  
-    color: var(--gray-light);
 }
 
 .footer-content li {
