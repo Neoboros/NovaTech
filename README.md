@@ -5,6 +5,5 @@
 </div>
 
 # NovaTech
-<hr>
 
 A NovaTech é uma startup que permite você criar seu computador peça-a-peça, disponibilizando o orçamento, gasto de energia, problemas de compatibilidade entre as peças e ainda por cima realiza uma comparação de preço entre as lojas de informática.
