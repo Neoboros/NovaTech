@@ -199,7 +199,8 @@ footer {
 
 .footer-content ul {
     list-style-type: none;
-    font-style: "Iosevka";  
+    font-style: "Iosevka";
+    color: var(--gray-light);  
 }
 
 .footer-content li {
