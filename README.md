@@ -15,3 +15,5 @@ O site está totalmente em português para suprir a necessidade de serviços com
 Atualmente o projeto se encontra em seu início, com apenas a home page completa:
 
 <img src="./examples/homepage.PNG">
+
+Em desenvolvimento estão a feature builder do website e o DiscordBot: https://github.com/Neoboros/Nova-Bot
