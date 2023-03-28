@@ -13,3 +13,5 @@ O site está totalmente em português para suprir a necessidade de serviços com
 # Andamento do Projeto:
 
 Atualmente o projeto se encontra em seu início, com apenas a home page completa:
+
+<img src="./examples/homepage.PNG">
